@@ -1,0 +1,10 @@
+[push]
+    autoSetupRemote = true
+[core]
+    editor = nvim
+[credential]
+    helper = osxkeychain
+[pull]
+    rebase = false
+[gpg]
+    program = gpg

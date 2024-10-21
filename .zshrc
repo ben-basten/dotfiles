@@ -1,4 +1,23 @@
 # ----------------------- #
+# Oh My Zsh
+# ----------------------- #
+
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# git clone https://github.com/lukechilds/zsh-nvm.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-nvm
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-nvm
+)
+
+# theming
+ZSH_THEME="robbyrussell"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8,underline"
+
+# https://ohmyz.sh/
+source $ZSH/oh-my-zsh.sh
+
+# ----------------------- #
 # General
 # ----------------------- #
 alias repo='cd ~/repos'
@@ -6,9 +25,31 @@ alias cls='clear'
 alias ll='ls -l'
 alias la='ls -A'
 
+# reconfigure Git password
+alias gitpass='git config --global credential.helper osxkeychain'
+
+# ----------------------- #
+# Java
+# ----------------------- #
+
+alias home='echo $JAVA_HOME'
+export JAVA_HOME=`/usr/libexec/java_home -v 21`
+# export JAVA_TOOL_OPTIONS="-Djavax.net.ssl.trustStore=/path/to/cacerts"
+
+# ----------------------- #
+# Tools
+# ----------------------- #
+
+# https://github.com/todotxt/todo.txt-cli
+alias t='todo.sh'
+
 # ----------------------- #
 # Git
 # ----------------------- #
+
+# Set default GH CLI editor to Neovim
+export GH_EDITOR=nvim
+
 alias main='git checkout main && git pull'
 
 # Go to project root
