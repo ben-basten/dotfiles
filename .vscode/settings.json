@@ -1,0 +1,42 @@
+{
+  "workbench.colorTheme": "Halcyon",
+  "git.inputValidationLength": 1000,
+  "git.inputValidationSubjectLength": 1000,
+  "workbench.iconTheme": "bearded-icons",
+  "window.zoomLevel": 1,
+  "workbench.sideBar.location": "right",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.renderWhitespace": "all",
+  "githubPullRequests.pullBranch": "never",
+  "git.suggestSmartCommit": false,
+  "editor.linkedEditing": true,
+  "files.autoSave": "afterDelay",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "window.commandCenter": false,
+  "files.autoSaveDelay": 6000,
+  "workbench.editor.showTabs": "none",
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.enabled": false,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04'",
+  "editor.rulers": [
+    {
+      "column": 180,
+      "color": "#893a89"
+    }
+  ],
+  "workbench.settings.applyToAllProfiles": [
+    "editor.fontLigatures",
+    "editor.rulers",
+    "editor.fontFamily",
+    "workbench.sideBar.location",
+    "editor.guides.bracketPairs",
+    "cspell.userWords",
+    "editor.minimap.enabled",
+    "editor.renderWhitespace"
+  ],
+  "accessibility.underlineLinks": true
+}
