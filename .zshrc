@@ -97,3 +97,9 @@ alias gx='git clean -df'
 alias gsha='git rev-parse HEAD | pbcopy'
 
 alias ghci='gh run list -L 1'
+
+# ----------------------- #
+# Debian
+# ----------------------- #
+
+alias update='sudo apt update && sudo apt upgrade'
