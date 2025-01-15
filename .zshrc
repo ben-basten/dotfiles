@@ -10,8 +10,13 @@ plugins=(
     zsh-nvm
 )
 
-# theming
-ZSH_THEME="robbyrussell"
+# ----------------------- #
+# Themes
+# ----------------------- #
+
+# Edit theme: ~/.oh-my-zsh/themes/candy.zsh-theme
+# Change "%X" to "%T" for 24-hour time
+ZSH_THEME="candy"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8,underline"
 
 # https://ohmyz.sh/
