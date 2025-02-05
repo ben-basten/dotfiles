@@ -101,7 +101,23 @@ alias gx='git clean -df'
 
 alias gsha='git rev-parse HEAD | pbcopy'
 
+# ----------------------- #
+# gh GitHub CLI
+# https://cli.github.com/
+# ----------------------- #
+
+function pr() {
+  if [ $1 = "ls" ]; then
+    gh pr list
+  else
+    gh pr checkout $1
+  fi
+}
+
 alias ghci='gh run list -L 1'
+
+alias ghpcd='gh pr create --draft'
+alias ghpc='gh pr create'
 
 # ----------------------- #
 # Debian
