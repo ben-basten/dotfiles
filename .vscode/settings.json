@@ -38,5 +38,7 @@
     "editor.minimap.enabled",
     "editor.renderWhitespace"
   ],
-  "accessibility.underlineLinks": true
+  "accessibility.underlineLinks": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all"
 }
