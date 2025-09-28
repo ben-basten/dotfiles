@@ -2,6 +2,9 @@
 # Oh My Zsh
 # ----------------------- #
 
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
 # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # git clone https://github.com/lukechilds/zsh-nvm.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-nvm
 plugins=(
@@ -25,6 +28,7 @@ source $ZSH/oh-my-zsh.sh
 # ----------------------- #
 # General
 # ----------------------- #
+
 alias repo='cd ~/repos'
 alias cls='clear'
 alias ll='ls -l'
@@ -124,3 +128,4 @@ alias ghpc='gh pr create'
 # ----------------------- #
 
 alias update='sudo apt update && sudo apt upgrade'
+alias lab='cd ~/repos/homelab'
