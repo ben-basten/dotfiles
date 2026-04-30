@@ -1,0 +1,34 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env_example": "allow",
+    },
+    "bash": {
+      "*": "ask",
+      "pnpm *": "allow",
+      "pnpm add *": "ask",
+      "pnpm install *": "ask",
+      "pnpm i *": "ask",
+      "git *": "allow",
+      "git commit *": "ask",
+      "git push *": "deny",
+      "rm -rf *": "deny",
+      "grep *": "allow",
+      "cp *": "allow",
+      "ls *": "allow",
+      "cat *": "allow",
+      "find *": "allow",
+      "pwd *": "allow",
+      "rg *": "allow",
+      "head *": "allow",
+    },
+    "external_directory": {
+      "~/repos/**": "ask",
+    },
+    "webfetch": "ask",
+  },
+}

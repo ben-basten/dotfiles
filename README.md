@@ -9,3 +9,12 @@ My dotfiles
    - Alternatively, copy the templated init file: `cp .config/nvim/init.vim ~/.config/nvim`
 3. `nvim` - open Neovim
 4. `:PlugInstall` - install plugins
+
+## Zellij
+
+- `zellij --layout dev` - open Zellij with the dev layout applied
+- `zellij attach [session_name]` - attach to an existing Zellij session
+
+## OpenCode
+
+For global OpenCode skills, install the skills in the `~/.agents/skills` directory.

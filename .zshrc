@@ -52,6 +52,9 @@ export JAVA_HOME=`/usr/libexec/java_home -v 21`
 # https://github.com/todotxt/todo.txt-cli
 alias t='todo.sh'
 
+# 1Password
+alias opr='op run --env-file=.env_example --'
+
 # ----------------------- #
 # Git
 # ----------------------- #

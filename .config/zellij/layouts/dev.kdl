@@ -1,0 +1,15 @@
+layout {
+    pane split_direction="vertical" {
+        pane size="75%" {
+	    command "opencode"
+	}
+        pane stacked=true {
+            pane name="codegen"
+            pane name="dev server" expanded=true
+            pane name="scratchpad"
+        }
+    }
+    pane size=1 borderless=true {
+        plugin location="status-bar"
+    }
+}
