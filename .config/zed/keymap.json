@@ -1,0 +1,67 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "alt-z": "editor::ToggleSoftWrap",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-f11": "editor::Rename",
+    },
+  },
+  {
+    "bindings": {
+      "cmd-r cmd-w": "workspace::CloseAllDocks",
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-cmd-right": "pane::SplitAndMoveRight",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-b": "workspace::ToggleRightDock",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "alt-cmd-b": "workspace::ToggleRightDock",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-cmd-b": "workspace::ToggleLeftDock",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "cmd-b": "workspace::ToggleLeftDock",
+    },
+  },
+]
