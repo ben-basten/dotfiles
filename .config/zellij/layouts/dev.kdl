@@ -1,8 +1,8 @@
 layout {
     pane split_direction="vertical" {
         pane size="75%" {
-	    command "opencode"
-	}
+            command "opencode"
+        }
         pane stacked=true {
             pane name="codegen"
             pane name="dev server" expanded=true
