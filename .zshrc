@@ -13,6 +13,8 @@ plugins=(
     zsh-nvm
 )
 
+DISABLE_AUTO_UPDATE=true
+
 # ----------------------- #
 # Themes
 # ----------------------- #
