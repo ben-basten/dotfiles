@@ -5,7 +5,8 @@
       "*": "allow",
       "*.env": "deny",
       "*.env.*": "deny",
-      "*.env_example": "allow",
+      ".env_example": "allow",
+      ".env.example": "allow",
     },
     "bash": {
       "*": "ask",
@@ -13,6 +14,8 @@
       "pnpm add *": "ask",
       "pnpm install *": "ask",
       "pnpm i *": "ask",
+      "pnpm dlx *": "ask",
+      "pnpx *": "ask",
       "git *": "allow",
       "git commit *": "ask",
       "git push *": "deny",
@@ -25,6 +28,8 @@
       "pwd *": "allow",
       "rg *": "allow",
       "head *": "allow",
+      "wc *": "allow",
+      "tail *": "allow",
     },
     "external_directory": {
       "~/repos/**": "ask",
